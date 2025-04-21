@@ -1,0 +1,88 @@
+nooks
+hover
+About the Masterclass = x
+tlyon
+balor
+flesh
+run
+Exclusive Access / Behind-the-Scenes = x
+Who This Masterclass is For = x
+Sample Lessons or Clips = x
+Downloadable Resources = x
+Community Access = x
+Certificate of Completion = x
+Limited-Time Offer / Urgency Banner (Optional) = x 
+Money-Back Guarantee = x
+
+
+
+
+Masterclass – A specialized training led by a top expert in a field.
+1. Navbar
+Top navigation with logo, anchor links (About, Instructor, Curriculum, Pricing), and a strong CTA like “Enroll Now” or “Watch Free Lesson”.
+
+2. Hero Section
+Powerful headline (e.g., “Learn Filmmaking from an Oscar Winner”) with a background image or video of the expert, a short description, and a bold CTA (“Start Learning”).
+
+3. About the Masterclass
+Brief overview explaining what the course is about, its unique value, and what students will gain.
+
+4. Instructor Introduction
+High-quality photo, short bio, achievements, awards, and why this expert is the right person to teach.
+
+5. Masterclass Trailer / Teaser Video
+Short promotional video giving a glimpse of the teaching style, topics, and energy of the course.
+
+6. What You’ll Learn
+Bullet points or icons summarising the key skills, techniques, or knowledge areas covered in the course.
+
+7. Course Curriculum Overview
+Detailed breakdown of modules, lessons, or episodes, often grouped into topics.
+
+8. Exclusive Access / Behind-the-Scenes
+Highlight what makes this Masterclass special—e.g., insider knowledge, real-world case studies, personal methods.
+
+9. Who This Masterclass is For
+Define the ideal audience (beginners, intermediates, experts) and what learners should expect.
+
+10. Student Testimonials
+Quotes, reviews, or video testimonials from past students showing real feedback and success stories.
+
+11. Featured In / As Seen On (Optional)
+Logos of major media outlets, awards, or brands associated with the instructor or course.
+
+12. Sample Lessons or Clips
+Give a preview of a full or partial lesson to build trust and excitement.
+
+13. Downloadable Resources
+Mention included materials like workbooks, assignments, templates, or bonus reading lists.
+
+214. Community Access
+Offer access to a private group (e.g., Facebook, Slack, or forum) where learners can connect and discuss.
+
+15. Certificate of Completion
+If offered, explain how students can earn a certificate and how it adds value to their CV or LinkedIn profile.
+
+16. Pricing & Enrollment Options
+Display the course price clearly, any bundles (e.g., yearly subscription for multiple masterclasses), payment plans, or free trials.
+
+17. Limited-Time Offer / Urgency Banner (Optional)
+Highlight any special discounts, enrollment deadlines, or early bird offers.
+
+18. FAQ Section
+Answer common questions about the Masterclass—like how long users have access, refund policy, technical requirements, etc.
+
+19. Money-Back Guarantee
+Reinforce confidence by mentioning any satisfaction guarantee or refund policy.
+
+20. Gift This Masterclass (Optional)
+Option for users to gift the course to a friend or colleague, which many platforms like MasterClass.com offer.
+
+21. Contact Information
+Support email, live chat, or helpdesk links in case users have questions before enrolling.
+
+22. Final CTA Section
+Strong closing statement (e.g., “Take the First Step Toward Mastery”) with a final “Enroll Now” button.
+
+23. Footer
+Logo, secondary navigation (Privacy Policy, Terms, Support), social media icons.
