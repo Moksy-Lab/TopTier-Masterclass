@@ -1,0 +1,840 @@
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>119</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>120</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>121</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>122</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>123</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>124</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>125</b><br />
+<br />
+<b>Warning</b>:  Undefined variable $branding in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
+<br />
+<b>Warning</b>:  Trying to access array offset on value of type null in <b>/var/www/preview/index.php</b> on line <b>126</b><br />
+/*****nooks*****/
+/* #nooks(nooksNavbar) #css starts  */
+.nooksNavbar .btn {
+    background-color: #353935;
+    color: white;
+    border: none;
+    font-weight: bold
+}
+
+.nooksNavbar .logo {
+    max-height: 50px
+}
+
+.nooksNavbar .navbar-open-icon {
+    display: inline
+}
+
+.nooksNavbar .navbar-close-icon {
+    display: none
+}
+
+.nooksNavbar .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+    display: none
+}
+
+.nooksNavbar .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+    display: inline
+}
+
+.nooksNavbar .navbar-light .navbar-toggler {
+    color: #353935;
+    border-color: #353935;
+    font-size: 25px;
+}
+
+/* #nooks(nooksNavbar) #css ends  */
+/*****nooks*****/
+
+/*****havoc*****/
+/* #havoc(havocHero) #css starts  */
+.havocHero .DescriptionHeading {
+    font-size: 35px
+}
+
+.havocHero .DescriptionPara {
+    color: #808080;
+    font-size: 20px
+}
+/* General styles for the image */
+.havocHero img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Add margin-top for small screens */
+@media (max-width: 575.98px) {
+    .havocHero img {
+        margin-top: 20px; /* Adjust the value as needed */
+    }
+}
+
+/* #havoc(havocHero) #css ends  */
+/*****havoc*****/
+
+/*****fleck*****/
+/* #fleck(fleckFeatures) #css starts */
+.fleckFeature img {
+    max-height: 800px;
+}
+.fleckFeature h2 {
+    font-size: 35px;
+}
+.fleckFeature .lead{
+    font-size: 18px;
+}
+.fleckFeature h3 {
+    font-size: 25px;
+}
+/* #fleck(fleckFeatures) #css ends */
+/*****fleck*****/
+
+/*****potex*****/
+/* #potex(potexProduct) #css starts  */
+.potexProduct .product-grid {
+    text-align: center;
+    border: 1px solid #ebebeb;
+    transition: all 0.5s ease 0s;
+}
+
+.potexProduct .product-grid:hover {
+    border-color: #0098ca;
+}
+
+.potexProduct .product-grid .product-image {
+    background-color: #333;
+    margin: 5px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.potexProduct .product-grid .product-image a.image {
+    display: block;
+}
+
+.potexProduct .product-grid .product-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.potexProduct .product-grid .product-image .pic-1 {
+    transition: all 0.5s ease 0s;
+}
+
+.potexProduct .product-grid .product-image:hover .pic-1 {
+    opacity: 0;
+}
+
+.potexProduct .product-grid .product-image .pic-2 {
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 0.5s ease 0s;
+    object-fit: cover;
+}
+
+.potexProduct .product-grid .product-image:hover .pic-2 {
+    opacity: 0.7;
+}
+
+.potexProduct .product-grid .product-new-label,
+.potexProduct .product-grid .product-sale-label {
+    color: #fff;
+    background-color: #222;
+    font-size: 13px;
+    text-transform: capitalize;
+    padding: 3px 8px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.potexProduct .product-grid .product-sale-label {
+    background-color: #0098ca;
+    left: auto;
+    right: 0;
+}
+
+.potexProduct .product-grid .product-links {
+    width: 97px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    opacity: 0;
+    transform: translateX(-50%) translateY(-50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transition: all 0.3s ease 0s
+}
+
+.potexProduct .product-grid .product-image:hover .product-links {
+    opacity: 1;
+}
+
+.potexProduct .product-grid .product-links li {
+    display: inline-block;
+    margin: 0 3px;
+}
+
+.potexProduct .product-grid .product-links li a {
+    color: #999;
+    background: #fff;
+    font-size: 16px;
+    line-height: 40px;
+    height: 40px;
+    width: 40px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.5);
+    display: block;
+    transition: all 0.3s ease 0s;
+}
+
+.potexProduct .product-grid .product-links li a:hover {
+    color: #fff;
+    background: #0098ca;
+}
+
+.potexProduct .product-grid .product-content {
+    padding: 10px 0 0;
+}
+
+.potexProduct .product-grid .title {
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+    margin: 0 0 6px;
+}
+
+.potexProduct .product-grid .title a {
+    color: #222;
+    transition: all 0.3s ease 0s;
+}
+
+.potexProduct .product-grid .title a:hover {
+    color: #0098ca;
+}
+
+.potexProduct .product-grid .price {
+    color: #0098ca;
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 4px;
+}
+
+.potexProduct .product-grid .price span {
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.potexProduct .product-grid .rating {
+    color: #999;
+    font-size: 11px;
+    padding: 0;
+    margin: 0 0 17px;
+    list-style: none;
+}
+
+.potexProduct .product-grid .rating li.fas {
+    color: #0098ca;
+}
+
+.potexProduct .product-grid .product-buttons {
+    font-size: 0;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.potexProduct .product-grid .product-buttons li {
+    display: inline-block;
+    width: 50%;
+}
+
+.potexProduct .product-grid .product-buttons li:nth-child(2) {
+    margin: 0 0 0 -1px;
+}
+
+.potexProduct .product-grid .product-buttons li a {
+    color: #666;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 10px 3px 8px;
+    border: 1px solid #ebebeb;
+    border-bottom: none;
+    border-left: none;
+    display: block;
+    transition: all 0.3s;
+}
+
+.potexProduct .product-grid .product-buttons li:nth-child(2) a {
+    border-right: none;
+    border-left: 1px solid transparent;
+}
+
+.potexProduct .product-grid .product-buttons li a:hover {
+    color: #0098ca;
+    border-color: #0098ca;
+}
+
+@media screen and (max-width: 990px) {
+    .potexProduct .product-grid {
+        margin: 0 0 30px;
+    }
+}
+
+/* #potex(potexProduct) #css ends  */
+/*****potex*****/
+
+/*****panter*****/
+/* #panter(panterPricing) #css starts  */
+.panterPricing .bg{
+    box-shadow: 0 0 15px #eee; 
+    min-height: 400px; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+    background-size: cover; 
+    background-image: url(https://images.moksy.com/templates/default/banner/math.jpeg);
+}
+.panterPricing .heading{
+    color: #02d1a1;
+}
+.panterPricing a{
+    color: #353535;
+}
+/* #panter(panterPricing) #css ends  */
+/*****panter*****/
+
+/*****cash*****/
+/* #cash(cashCounters) #css starts  */
+.cashCounters h2 {
+    color: #424242;
+    margin-top: 12px;
+    font-size: 25px;
+}
+
+.cashCounters .BG {
+    background-color: #fff
+}
+
+.cashCounters i {
+    margin-top: 10px;
+    font-size: 25px
+}
+
+.cashCounters h4 {
+    font-size: 30px;
+    margin-bottom: 0.2rem !important;
+}
+
+@media (min-width: 576px) {
+    .cashCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+}
+
+@media (max-width: 576px) {
+    .cashCounters .col-md-3 {
+        margin-bottom: 30px;
+        text-align: center
+    }
+}
+
+/* #cash(cashCounters) #css ends  */
+/*****cash*****/
+
+/*****tioni*****/
+/* #tioni(tioniTestimonial) #css starts  */
+.tioniTestimonial .fdb-block {
+    padding: 3rem 0;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-color: #FFFFFF
+}
+
+.tioniTestimonial .fdb-block .fdb-box {
+    background: #FFFFFF;
+    padding: 2rem 2.5rem;
+    overflow: hidden;
+    color: #444444;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2) !important;
+}
+
+.tioniTestimonial .fdb-block .fdb-touch {
+    border-top: solid 0.3125rem #329ef7;
+    z-index: 2
+}
+
+.tioniTestimonial .personIMG {
+    max-height: 50px
+}
+
+/* #tioni(tioniTestimonial) #css ends  */
+/*****tioni*****/
+
+/*****fight*****/
+    /* #fight(fightFaq) #css starts  */
+    .fightFaq .heading{
+        color: #0EA187;
+    }
+    .fightFaq .bg{
+        background-color: #0EA187;
+    }
+    /* #fight(fightFaq) #css ends  */
+/*****fight*****/
+
+/*****sevor*****/
+/* #sevor(sevorSocialShare) #css starts  */
+
+.sevorSocialShare .trial-block {
+    padding: 10px 0;
+}
+
+.sevorSocialShare .shadow3 {
+    background-image: url("https://images.moksy.com/templates/default/shapes/shadow.png");
+    background-repeat: no-repeat;
+}
+
+.sevorSocialShare .height450 {
+    height: 450px;
+}
+
+.sevorSocialShare .badge-info {
+    background-color: rgba(23, 160, 184, 0.17);
+    color: #17a2b8;
+}
+
+.sevorSocialShare .badge {
+    border-radius: 100px;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    padding: 4px 14px;
+    text-transform: capitalize;;
+}
+
+.sevorSocialShare .social-overlap {
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.sevorSocialShare .justify-content-center {
+    justify-content: center !important;
+}
+
+.sevorSocialShare .social-bar {
+    display: flex;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 60px rgba(93, 70, 232, 0.15);
+    border: 1px solid #ebe9e9;
+}
+
+.sevorSocialShare .iconpad {
+    padding: 12px 0;
+    width: 100%;
+}
+
+.sevorSocialShare .mb-3 {
+    margin-bottom: 1rem !important;
+}
+
+.sevorSocialShare .slider-nav-item {
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    text-align: center;
+    background: #fff;
+    cursor: pointer;
+    transition: all .4s ease;
+}
+
+.sevorSocialShare .social-icons a {
+    border-radius: 50px;
+    color: #3f345f;
+    display: inline-block;
+    line-height: 52px;
+    height: 50px;
+    width: 50px;
+    box-shadow: 0 5px 25px rgba(93, 70, 232, 0.15);
+    margin: 15px;
+    font-size: 22px;
+}
+
+.sevorSocialShare a {
+    text-decoration: none !important;
+    color: #3f345f;
+    transition: all 0.3s ease;
+}
+
+.sevorSocialShare .slider-nav-item:before {
+    position: absolute;
+    content: "";
+    height: calc(100% + 16px);
+    width: calc(100% + 16px);
+    top: -8px;
+    left: -8px;
+    border-radius: 50%;
+    border: 1px solid rgba(132, 132, 164, 0.35);
+    animation: focuse 1.5s linear infinite;
+}
+
+@keyframes focuse {
+    0% {
+        transform: scale(0.8);
+        opacity: 1;
+    }
+
+    75% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.sevorSocialShare .mt100 {
+    margin-top: 100px;
+}
+
+.sevorSocialShare .jello-horizontal {
+    animation: jello-horizontal 0.9s both;
+}
+
+.sevorSocialShare .social-bar a:hover i {
+    animation: jello-horizontal 0.9s both;
+}
+
+@keyframes jello-horizontal {
+    0% {
+        transform: scale3d(1, 1, 1);
+    }
+
+    30% {
+        transform: scale3d(1.25, 0.75, 1);
+    }
+
+    40% {
+        transform: scale3d(0.75, 1.25, 1);
+    }
+
+    50% {
+        transform: scale3d(1.15, 0.85, 1);
+    }
+
+    65% {
+        transform: scale3d(0.95, 1.05, 1);
+    }
+
+    75% {
+        transform: scale3d(1.05, 0.95, 1);
+    }
+
+    100% {
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+/* #sevor(sevorSocialShare) #css ends  */
+/*****sevor*****/
+
+/*****cerry*****/
+/* #cerry(cerryCTA) #css starts  */
+.cerryCTA .fdb-block {
+    padding: 7.5rem 0;
+    background-color: #FFFFFF
+}
+
+.cerryCTA .btn {
+    color: #fff;
+    border-color: #353935;
+    background-color: #353935;
+}
+.cerryCTA h1 {
+    font-size: 30px;
+}
+
+/* #cerry(cerryCTA) #css ends  */
+/*****cerry*****/
+
+/*****stiro*****/
+/* #stiro(stiroSubscribe) #css starts */
+.stiroSubscribe h1 {
+    font-size: 30px;
+}
+
+.stiroSubscribe .btn {
+    color: #fff;
+    background-color: #353935;
+    border-color: #353935;
+}
+
+.stiroSubscribe .mx-2{
+    color: #353535;
+}
+
+/* #stiro(stiroSubscribe) #css starts */
+/*****stiro*****/
+
+/*****flores*****/
+/* #flores(floresFooter) #css starts */
+.floresFooter .fdb-block {
+    padding: 3rem 0
+}
+
+.floresFooter a {
+    color: #fff;
+}
+
+.floresFooter .nav-link {
+    padding: 0.5rem 0rem;
+}
+
+/* #flores(floresFooter) #css ends */
+/*****flores*****/
+
+
+img.logo, footer .logo {
+    max-height: 100% !important;
+    margin: 0px !important;
+    max-width: 100% !important;
+}
+
+section#cionCTA, section.calltoaction {
+    margin-bottom: 0px !important;
+    padding-bottom: 0px !important;
+}
+:root {
+  --primary_color: #6A502D;
+  --secondary_color: #9d8360;
+  --tertiary_color: #371d00;
+  --default_color: #f5f5f5;
+  --default_text_color: #222222;
+  --accent_color: #28A745;
+  --alert_color: #DC3545;
+  --warning_color: #FFC107;
+}
+.primary_font-font {
+  font-family: Fira Sans;
+  font-style: normal;
+}
+.secondary_font-font {
+  font-family: Lato;
+  font-style: normal;
+}
+.tertiary_font-font {
+  font-family: Work Sans;
+  font-style: normal;
+}
+.default_font-font {
+  font-family: Helvetica;
+  font-style: normal;
+}
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  color: #222222;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+a {
+  color: #6A502D;
+  text-decoration: none;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+a:hover {
+  color: #28A745;
+  text-decoration: underline;
+}
+ul, ol {
+  padding-left: 20px;
+  margin: 0 0 20px 0;
+}
+li {
+  margin-bottom: 10px;
+  font-family: Lato;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+th, td {
+  border: 1px solid #371d00;
+  padding: 10px;
+  text-align: left;
+  font-family: Lato;
+}
+th {
+  background-color: #9d8360;
+  color: #222222;
+}
+.navbar {
+display: contents !important}
+section.navbar header {
+padding: 20px !important}
+section {
+margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;}
+section.banner {
+margin-top: 0px;
+    margin-bottom: 20px;
+    padding-top: 0px;
+    padding-bottom: 20px;}
+section.footer {
+margin: 0px !important; padding: 0px !important;}
+h1 {
+  font-family: Fira Sans;
+  font-size: 36px;
+  font-weight: bold;
+  color: #6A502D;
+  margin-bottom: 20px;
+}
+h1.branded {
+  color: var(--primary_color);
+  font-size: calc(36px * 1.2);
+}
+h1.special {
+  color: var(--accent_color);
+  font-style: italic;
+  text-transform: uppercase;
+}
+h2 {
+  font-family: Fira Sans;
+  font-size: 30px;
+  font-weight: semi-bold;
+  color: #9d8360;
+  margin-bottom: 18px;
+}
+h2.branded {
+  color: var(--primary_color);
+  font-size: calc(30px * 1.2);
+}
+h2.special {
+  color: var(--accent_color);
+  font-style: italic;
+  text-transform: uppercase;
+}
+h3 {
+  font-family: Fira Sans;
+  font-size: 24px;
+  font-weight: medium;
+  color: #371d00;
+  margin-bottom: 16px;
+}
+h3.branded {
+  color: var(--primary_color);
+  font-size: calc(24px * 1.2);
+}
+h3.special {
+  color: var(--accent_color);
+  font-style: italic;
+  text-transform: uppercase;
+}
+p {
+  font-family: Lato;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #222222;
+  margin-bottom: 20px;
+}
+p.branded {
+  color: var(--primary_color);
+}
+p.special {
+  color: var(--accent_color);
+  font-weight: bold;
+}
+.navbar {
+  background-color: #6A502D;
+  font-family: Lato;
+  color: #222222;
+}
+.navbar.branded {
+  background-color: var(--primary_color);
+}
+.navbar.special {
+  background-color: var(--accent_color);
+}
+a {
+  color: #6A502D;
+  text-decoration: none;
+}
+a.branded {
+  color: var(--primary_color) !important;
+}
+a.special {
+  color: var(--accent_color);
+  text-decoration: underline;
+}
+.primary_button {
+  background-color: #6A502D;
+  color: #f5f5f5;
+}
+button.branded {
+  background-color: var(--primary_color) !important;
+}
+button.special {
+  background-color: var(--accent_color) !important;
+}
+.secondary_button {
+  background-color: #9d8360;
+  color: #f5f5f5;
+}
+button.branded {
+  background-color: var(--primary_color) !important;
+}
+button.special {
+  background-color: var(--accent_color) !important;
+}
